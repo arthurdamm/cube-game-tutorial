@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerHandler : MonoBehaviour
@@ -26,5 +27,10 @@ public class PlayerHandler : MonoBehaviour
     {
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         rb.MovePosition(rb.position + movement * playerSpeed * Time.fixedDeltaTime);
+    }
+
+    public void IncreasePoints()
+    {
+        points++;
     }
 }
