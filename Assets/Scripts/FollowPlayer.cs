@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour
         transform.LookAt(cameraTarget.position);
     }
 
-    private void _OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         if (!cameraTarget) return;
 
