@@ -13,8 +13,9 @@ namespace Tests_5
         {
             var ObjUnderTest = new MyLoggingClass();
 
-            LogAssert.Expect(LogType.Log, "Doing something");
             ObjUnderTest.DoSomething();
+
+            LogAssert.Expect(LogType.Log, "Doing something");
         }
 
         [Test]
@@ -22,9 +23,10 @@ namespace Tests_5
         {
             var ObjUnderTest = new MyLoggingClass();
 
+            ObjUnderTest.DoSomethingElse();
+            
             // LogAssert does not respect RegexOptions, they must be included in string if possible
             LogAssert.Expect(LogType.Error, new Regex("^(?i)an eRrOr happened. Code: \\d+$"));
-            ObjUnderTest.DoSomethingElse();
         }
     }
 }
