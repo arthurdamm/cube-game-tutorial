@@ -1239,8 +1239,8 @@
     <ProjectReference Include="Assembly-CSharp.csproj" />
     <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
-    <ProjectReference Include="MyExercise_3s.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
+    <ProjectReference Include="Tests_4.csproj" />
     <ProjectReference Include="Unity.TextMeshPro.csproj" />
     <ProjectReference Include="Unity.AI.Navigation.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
@@ -1251,7 +1251,6 @@
     <ProjectReference Include="Unity.AI.Navigation.Editor.csproj" />
     <ProjectReference Include="PPv2URPConverters.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
-    <ProjectReference Include="Tests_3s.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
     <ProjectReference Include="Unity.Searcher.Editor.csproj" />
@@ -1285,6 +1284,7 @@
     <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
     <ProjectReference Include="Unity.Burst.csproj" />
+    <ProjectReference Include="MyExercise_4.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
     <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
